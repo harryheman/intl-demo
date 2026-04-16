@@ -8,6 +8,7 @@ import {
   InputLabel,
   MenuItem,
   Select,
+  Typography,
 } from '@mui/material'
 import CssBaseline from '@mui/material/CssBaseline'
 import { useState } from 'react'
@@ -93,6 +94,9 @@ export default function App() {
           gap: 4,
         }}
       >
+        <Typography variant='h3' align='center'>
+          Intl API демо
+        </Typography>
         <FormControl sx={{ width: 340 }}>
           <InputLabel id='example-label'>Пример</InputLabel>
           <Select
