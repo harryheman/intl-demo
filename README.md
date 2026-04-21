@@ -1,3 +1,3 @@
-# Intl API демо
+# Intl API
 
-- [Демо на Netlify](https://intl-api-demo.netlify.app/)
+- [Demo on Netlify](https://intl-api-demo.netlify.app/)
