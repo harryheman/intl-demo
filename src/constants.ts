@@ -1,6 +1,6 @@
-export const locales = [undefined, 'en-US', 'nl-NL', 'fr-FR', 'ja-JP', 'ar-EG']
+export const locales = ['ru-RU', 'en-US', 'nl-NL', 'fr-FR', 'ja-JP', 'ar-EG']
 export const localeNames = [
-  'Дефолтная локаль',
+  'Русский',
   'Английский (США)',
   'Датский',
   'Французский',

@@ -101,7 +101,7 @@ export default function App() {
         }}
       >
         <Typography variant='h3' align='center'>
-          Intl API демо
+          Intl API
         </Typography>
         <FormControl sx={{ width: 340 }}>
           <InputLabel id='example-label'>Пример</InputLabel>
