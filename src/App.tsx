@@ -22,6 +22,7 @@ import { NumberFormat3Example } from './examples/NumberFormat3'
 import { ListFormatExample } from './examples/ListFormat'
 import { SegmenterExample } from './examples/Segmenter'
 import { CollatorExample } from './examples/Collator'
+import { PluralRulesExample } from './examples/PluralRules'
 
 const exampleOptions = [
   {
@@ -57,6 +58,10 @@ const exampleOptions = [
     value: 'ListFormat',
   },
   {
+    label: 'PluralRules',
+    value: 'PluralRules',
+  },
+  {
     label: 'Segmenter',
     value: 'Segmenter',
   },
@@ -74,6 +79,7 @@ const exampleMap = {
   NumberFormat: <NumberFormatExample />,
   NumberFormat2: <NumberFormat2Example />,
   NumberFormat3: <NumberFormat3Example />,
+  PluralRules: <PluralRulesExample />,
   ListFormat: <ListFormatExample />,
   Segmenter: <SegmenterExample />,
   Collator: <CollatorExample />,
