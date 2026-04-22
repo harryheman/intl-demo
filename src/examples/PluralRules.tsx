@@ -29,7 +29,7 @@ export const PluralRulesExample = () => {
   const options = { type }
 
   const rules = locales.map((locale) => new Intl.PluralRules(locale, options))
-  const defaultRule = rules[0]
+  const ruRules = rules[0]
   const suffixes: Record<Intl.LDMLPluralRule, string> = {
     one: '',
     few: 'а',
@@ -87,9 +87,9 @@ export const PluralRulesExample = () => {
           }}
         >
           <Typography variant='subtitle1'>{localeNames[0]}</Typography>
-          <Typography variant='body2'>{defaultRule.select(count)}</Typography>
+          <Typography variant='body2'>{ruRules.select(count)}</Typography>
           <Typography variant='body2'>
-            {count} элемент{suffixes[defaultRule.select(count)]}
+            {count} элемент{suffixes[ruRules.select(count)]}
           </Typography>
         </Grid>
         {rules.slice(1).map((rule, index) => {

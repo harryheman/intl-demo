@@ -47,7 +47,7 @@ export const SegmenterExample = () => {
     (locale) => new Intl.Segmenter(locale, options),
   )
 
-  const defaultSegmenter = segmenters[0]
+  const ruSegmenter = segmenters[0]
 
   return (
     <Box>
@@ -124,7 +124,7 @@ export const SegmenterExample = () => {
             </Typography>
             <Typography variant='body2' color='success'>
               Правильное количество графем:{' '}
-              {Array.from(defaultSegmenter.segment(grapheme)).length}
+              {Array.from(ruSegmenter.segment(grapheme)).length}
             </Typography>
           </Grid>
         )}
@@ -144,7 +144,7 @@ export const SegmenterExample = () => {
             </Typography>
             <Typography variant='body2' color='success'>
               Правильное количество предложений:{' '}
-              {Array.from(defaultSegmenter.segment(sentence)).length}
+              {Array.from(ruSegmenter.segment(sentence)).length}
             </Typography>
           </Grid>
         )}
