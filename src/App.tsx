@@ -3,9 +3,11 @@ import '@fontsource/roboto/400.css'
 import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import {
+  Box,
   Container,
   FormControl,
   InputLabel,
+  Link,
   MenuItem,
   Select,
   Typography,
@@ -120,6 +122,20 @@ export default function App() {
         </FormControl>
         {exampleMap[example]}
       </Container>
+      <Box
+        sx={{
+          position: 'absolute',
+          bottom: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          width: '100%',
+          padding: 2,
+        }}
+      >
+        <Link href='https://github.com/harryheman/intl-demo' target='_blank'>
+          GitHub
+        </Link>
+      </Box>
     </>
   )
 }
