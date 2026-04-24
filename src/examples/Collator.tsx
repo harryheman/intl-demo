@@ -79,14 +79,14 @@ export const CollatorExample = () => {
         spacing={1}
         sx={{
           marginTop: 2,
-          color: 'AccentColorText',
+          color: 'white',
         }}
       >
         <Grid
           size={4}
           sx={{
             padding: 2,
-            backgroundColor: 'red',
+            backgroundColor: '#d32f2f',
             borderRadius: 2,
           }}
         >
@@ -99,7 +99,7 @@ export const CollatorExample = () => {
         spacing={1}
         sx={{
           marginTop: 2,
-          color: 'AccentColorText',
+          color: 'white',
         }}
       >
         {collators.map((collator, index) => {
@@ -109,7 +109,7 @@ export const CollatorExample = () => {
               size={4}
               sx={{
                 padding: 2,
-                backgroundColor: 'AccentColor',
+                backgroundColor: '#1976d2',
                 borderRadius: 2,
               }}
             >

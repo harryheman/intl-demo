@@ -96,7 +96,7 @@ export const DurationFormatExample = () => {
         spacing={1}
         sx={{
           marginTop: 2,
-          color: 'AccentColorText',
+          color: 'white',
         }}
       >
         {formatters.map((formatter, index) => (
@@ -105,7 +105,7 @@ export const DurationFormatExample = () => {
             size={4}
             sx={{
               padding: 2,
-              backgroundColor: 'AccentColor',
+              backgroundColor: '#1976d2',
               borderRadius: 2,
             }}
           >
